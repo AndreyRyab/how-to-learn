@@ -29,20 +29,23 @@
   background-repeat: no-repeat;
   background-position: center;
   width: 183px;
+  left: 64px;
 }
 /* logo for header */
 .logo_place_header {
+  background-image: url('../images/logo_place_header.svg');
   position: absolute;
   height: 32px;
   z-index: 10;
   top: 30px;
-  left: 64px;
 }
+
 /* logo for footer */
 .logo_place_footer {
+  background-image: url('../images/logo_place_footer.svg');
   height: 35px;
-  left: 64px;
 }
+
 /* main header h1 */
 .header__title {
   margin-left: 64px;
