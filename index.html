@@ -158,19 +158,26 @@
         <nav class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">О Практикуме</h4>
           <ul class="footer__column-links">
-            <li><a class="footer__column-links" href="#">Главная</a></li>
-            <li><a class="footer__column-links" href="#">Концепция</a></li>
-            <li><a class="footer__column-links" href="#">Наставники</a></li>
+             <!-- Ирина, спасибо! Странная штука - когда я вчера так пытался
+              разделять на два класса, ссылки не хотели перекрашиваться, как будто
+              игнорировали стиль. Поэтому я им назначал тот же класс, что и у списка,
+              принудительно. Но сейчас вот сработало. Спасибо вам ещё раз за помощь.
+              Но всё равно остаётся вопрос, почему ссылки как дочерние у списка
+              не наследовали стиль и для них пришлось делать дополнительный класс (кстати,
+              в брифе не нашёл элемента footer__column-link). Пойду почитаю теорию про это))) -->
+            <li><a class="footer__column-link" href="#">Главная</a></li>
+            <li><a class="footer__column-link" href="#">Концепция</a></li>
+            <li><a class="footer__column-link" href="#">Наставники</a></li>
           </ul>
         </nav>
         <nav class="footer__column footer__column_content_social">
           <h4 class="footer__column-heading">Соцсети</h4>
           <ul class="footer__column-links">
-            <li><a class="footer__column-links" href="#"><img class="footer__social-icon" src="./images/facebook_color_white.svg"
+            <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/facebook_color_white.svg"
               alt="Логотип Facebook">Facebook</a></li>
-            <li><a class="footer__column-links" href="#"><img class="footer__social-icon" src="./images/vk_color_white.svg"
+            <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/vk_color_white.svg"
                 alt="Логотип «ВКонтакте»">ВКонтакте</a></li>
-            <li><a class="footer__column-links" href="#"><img class="footer__social-icon" src="./images/instagram_color_white.svg"
+            <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/instagram_color_white.svg"
                   alt="Логотип Instagram">Instagram</a></li>
           </ul>
         </nav>
