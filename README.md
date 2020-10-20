@@ -1,4 +1,4 @@
-#How to learn#
+# How to learn
  
 Here's my very first web-page, created while studying at Yandex.Praktikum. There’re 11 sections, including: 
  
@@ -9,5 +9,6 @@ Here's my very first web-page, created while studying at Yandex.Praktikum. There
 * numbered list
 * partnership page
 * tree-columns footer
+____________________________ 
 
 The project is made on html&css. I’m planning to add some parallax effects and animations using js.
