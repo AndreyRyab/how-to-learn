@@ -1,4 +1,4 @@
-#How to learn 
+#How to learn#
  
 Here's my very first web-page, created while studying at Yandex.Praktikum. There’re 11 sections, including: 
  
