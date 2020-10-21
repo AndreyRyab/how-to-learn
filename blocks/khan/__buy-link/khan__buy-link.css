@@ -6,4 +6,10 @@
   font-weight: normal;
   vertical-align: top;
   margin-left: 48px;
+  opacity: 1;
+  transition: opacity .3s ease;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.3;
 }
