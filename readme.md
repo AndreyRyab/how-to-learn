@@ -1,14 +1,17 @@
-# How to learn
+# Учебная работа: вёрстка landing-page
+Самый первый проект, созданный во время учёбы в Яндекс.Практикуме
 
-Here's my very first web-page, created while studying at Yandex.Praktikum. There’re 11 sections, including:
+## Секции
 
-* hero-page with animated shape
-* list of cards with pics, headings and descriptions (similar to advantages section)
-* iframes with video-players
-* quote with formatted texts
-* numbered list
-* partnership page
-* tree-columns footer
-____________________________
+- первый экран (hero-page) с простой css-анимацией
+- список карточек (преимущества)
+- iframe с youtube-видео
+- цитата
+- список
+- список партнёров
+- трёхколоночный футер
 
-Technologies: HTML, CSS
+### Технологии
+
+- HTML
+- CSS
